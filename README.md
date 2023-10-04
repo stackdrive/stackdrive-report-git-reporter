@@ -17,7 +17,6 @@
         sudo yum -y install java-1.8.0-openjdk-devel
         sudo yum -y install graphviz
         sudo yum -y install git
-        sudo yum -y install nginx
 
 ## Развёртывание StackDrive.Healess на Linux
 
