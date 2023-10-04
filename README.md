@@ -32,11 +32,11 @@
         
         chmod +x /opt/stackdrive-headless/stackdrive-headless.jar
         
-### В /etc/systemd/system закидываем [stackdrive-headless.service]
+### В /etc/systemd/system закидываем stackdrive-headless.service
 
         sudo cp ./stackdrive-headless.service /etc/systemd/system
 
-### Меняем [Service] -> User на локального пользователя в /etc/systemd/system/stackdrive-headless.service
+### Меняем Service -> User на локального пользователя в /etc/systemd/system/stackdrive-headless.service
         
          [Unit]
          Description=StackDrive
